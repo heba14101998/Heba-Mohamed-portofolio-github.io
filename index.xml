@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Portfolio on Heba Moh.</title>
+    <link>https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/</link>
+    <description>Recent content in My Portfolio on Heba Moh.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Dec 2021 11:00:59 -0400</lastBuildDate><atom:link href="https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project 2: Airport Agenda using Dijkstra&#39;s algorithm</title>
+      <link>https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/post/project-2/</link>
+      <pubDate>Sat, 18 Dec 2021 11:00:59 -0400</pubDate>
+      
+      <guid>https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/post/project-2/</guid>
+      <description>Abstract Reserving air flights can be a complex problem, especially between cities not connected by a direct flight. The goal of this project is to apply Dijkstra’s Algorithm to find the shortest path from starting airport to destination airport, such that minimizes the total travel distance to its destination.
+Tools  Python json library. Python math library. Python system library. Python pandas library. Spyder IDE.  Dataset We are given a json file contains a list of airports with some geo-information like city, country and location (longitude, latitude) , airport id as well as airport specific designations (a list of destination airports) as shown below:</description>
+    </item>
+    
+    <item>
+      <title>Project 1: Hotel Bookings Cancellation Classification</title>
+      <link>https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/post/project-1/</link>
+      <pubDate>Thu, 16 Dec 2021 10:58:08 -0400</pubDate>
+      
+      <guid>https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/post/project-1/</guid>
+      <description>Abstract In tourism and travel-related industries, most of the research on Revenue Management demand forecasting and prediction problems employ data from the aviation industry, in the format known as the Passenger Name Record (PNR). This is a format developed by the aviation industry. The main goal is to generate meaningful estimators from the data set we have and then choose the model that best predicts cancellation by comparing it to the accuracy ratings of several ML models.</description>
+    </item>
+    
+    <item>
+      <title>Project 3: Bangalore House Price Prediction</title>
+      <link>https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/post/project-3/</link>
+      <pubDate>Sun, 05 Dec 2021 11:25:05 -0400</pubDate>
+      
+      <guid>https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/post/project-3/</guid>
+      <description>Abstract Buying a home, especially in a city like Bengaluru, is a tricky choice. While the major factors are usually the same for all metros, there are others to be considered for the Silicon Valley of India. With its help millennial crowd, vibrant culture, great climate, and a slew of job opportunities, it is difficult to ascertain the price of a house in Bengaluru.
+By cleaning and analyzing the Bangalore home dataset, we will be able to understand how house prices are affected by various factors, and then apply machine learning regression to establish an approximate price for the properties.</description>
+    </item>
+    
+    <item>
+      <title>Chapter 4: Smart Rehabilitation</title>
+      <link>https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/post/project-4/</link>
+      <pubDate>Fri, 12 Nov 2021 11:14:48 -0400</pubDate>
+      
+      <guid>https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/post/project-4/</guid>
+      <description>Ploblem Specification You are a CEO of an AI company which builds and sells AI software to different types of clients. A client of yours is Maha, a Physiotherapist who helps people build customized rehabilitation plans that fits their health conditions and abilities. Maha told you that it takes her a long time to build rehabilitation exercise plans for her customers since it varies according to the customer Age Category, Condition and No.</description>
+    </item>
+    
+    <item>
+      <title>Chapter VI: Esmeralda</title>
+      <link>https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/post/project-6/</link>
+      <pubDate>Fri, 14 Apr 2017 11:25:05 -0400</pubDate>
+      
+      <guid>https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/post/project-6/</guid>
+      <description>We are delighted to be able to inform the reader, that during the whole of this scene, Gringoire and his piece had stood firm. His actors, spurred on by him, had not ceased to spout his comedy, and he had not ceased to listen to it. He had made up his mind about the tumult, and was determined to proceed to the end, not giving up the hope of a return of attention on the part of the public.</description>
+    </item>
+    
+    <item>
+      <title>Chapter V: Quasimodo</title>
+      <link>https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/post/project-5/</link>
+      <pubDate>Thu, 13 Apr 2017 11:15:58 -0400</pubDate>
+      
+      <guid>https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/post/project-5/</guid>
+      <description>In the twinkling of an eye, all was ready to execute Coppenole’s idea. Bourgeois, scholars and law clerks all set to work. The little chapel situated opposite the marble table was selected for the scene of the grinning match. A pane broken in the pretty rose window above the door, left free a circle of stone through which it was agreed that the competitors should thrust their heads. In order to reach it, it was only necessary to mount upon a couple of hogsheads, which had been produced from I know not where, and perched one upon the other, after a fashion.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/about/</guid>
+      <description>It is Heba Mohamed from Egypt graduated from the Computer and Communication department of the Benha Faculty of Engineering in July 2021. I&amp;rsquo;m highly interested in data science, particularly machine learning; I began studying it in September 2020 with the HCIA-AI course, which sparked my curiosity in continuing my education in this sector. After that, I decided that my graduation project would have to be an AI application which push me to learn more and more in this field.</description>
+    </item>
+    
+    <item>
+      <title>Certificates</title>
+      <link>https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/certificates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/certificates/</guid>
+      <description>Here is all my IBM badges on credly   IBM - Artificial Intelligence Analyst 2021 Mastery Exam    HCIA-AI Association Exam    Undcity Nanodegree - Data Analysis Professional    Coursera - Improving Deep Neural Networks - Hyperparameter Tuning, Regularization and Optimization    Coursera - Neural Networks and Deep Learning    Coursera - Structuring Machine Learning Projects    Coursera-Improving Deep Neural Networks-Hyperparameter Tuning, Regularization and and Optimization    Coursera &amp;amp; Google certificate- Introduction to Git and GitHub    Coursera - Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning    Datacamp - Deep Learning in Python Full Track    Datacamp - Advanced Deep Learning with Keras    Datacamp - Python Fundamentals Full Track    Datacamp - Supervised Learning with scikit-learn    Datacamp - Image Processing in Python    Datacamp - Feature Engineering for Machine Learning in Python    Datacamp - Statistical Thinking in Python (Part 1)    Datacamp - Image Processing in Python    Datacamp - Feature Engineering for Machine Learning in Python    AWS - Planning a Machine Learning Project    ITI MahraTech- Applied Deep Learning    ITI MahraTech- Database Fundamentals    ITI MahraTech- eLearning Fundamentals   </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/contact/</guid>
+      <description> Your Name Email Address An email address is required.  Message   </description>
+    </item>
+    
+    <item>
+      <title>Education</title>
+      <link>https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/education/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/education/</guid>
+      <description>Degree Bachelor&amp;rsquo;s degree in Computer and Communication Engineering.
+Faculty Benha&amp;rsquo;s Faculty of Engineering
+Period Agust 2016 - July 2021.
+Overall grade Very Good with honours (77%)</description>
+    </item>
+    
+  </channel>
+</rss>
