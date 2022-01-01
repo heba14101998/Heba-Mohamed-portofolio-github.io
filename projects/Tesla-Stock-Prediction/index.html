@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Books | Heba Moh.</title>
+    <title>Tesla Stock Prediction using Linear Regression | Heba Moh.</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Concealed the book material with codes using Google Colab and Juypter notebooks.">
+    <meta name="description" content="Implementation of  Multiple Linear Regression from scratch with and without machine learning libraries.">
     <meta name="generator" content="Hugo 0.91.2" />
     
     
@@ -42,33 +42,56 @@
 
     
     
-      <link href="https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/books/index.xml" rel="alternate" type="application/rss+xml" title="Heba Moh." />
-      <link href="https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/books/index.xml" rel="feed" type="application/rss+xml" title="Heba Moh." />
-      
-    
-    
-    <meta property="og:title" content="Books" />
-<meta property="og:description" content="Concealed the book material with codes using Google Colab and Juypter notebooks." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/books/" /><meta property="og:site_name" content="Heba Moh." />
+    <meta property="og:title" content="Tesla Stock Prediction using Linear Regression" />
+<meta property="og:description" content="Implementation of  Multiple Linear Regression from scratch with and without machine learning libraries." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/projects/Tesla-Stock-Prediction/" /><meta property="article:section" content="projects" />
+<meta property="article:published_time" content="2022-01-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-01-01T00:00:00+00:00" /><meta property="og:site_name" content="Heba Moh." />
 
-<meta itemprop="name" content="Books">
-<meta itemprop="description" content="Concealed the book material with codes using Google Colab and Juypter notebooks."><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Books"/>
-<meta name="twitter:description" content="Concealed the book material with codes using Google Colab and Juypter notebooks."/>
+<meta itemprop="name" content="Tesla Stock Prediction using Linear Regression">
+<meta itemprop="description" content="Implementation of  Multiple Linear Regression from scratch with and without machine learning libraries."><meta itemprop="datePublished" content="2022-01-01T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-01-01T00:00:00+00:00" />
+<meta itemprop="wordCount" content="1103">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Tesla Stock Prediction using Linear Regression"/>
+<meta name="twitter:description" content="Implementation of  Multiple Linear Regression from scratch with and without machine learning libraries."/>
 
-	
+	<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+    }
+  };
+
+  window.addEventListener('load', (event) => {
+      document.querySelectorAll("mjx-container").forEach(function(x){
+        x.parentElement.classList += 'has-jax'})
+    });
+
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
   </head>
 
   <body class="ma0 avenir bg-near-white">
 
     
+   
+  
 
   
   
-  <header class="cover bg-top" style="background-image: url('https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/images/books.png');">
-    <div class="bg-black-60">
+  <header class="cover bg-top" style="background-image: url('https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/images/Projects/LR%20project/Linear%20regression%20representation%20graph.png');">
+    <div class="pb3-m pb6-l bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
     <a href="https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
@@ -182,58 +205,301 @@
   </div>
 </nav>
 
-      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
-          Books
-        </h1>
+      <div class="tc-l pv6 ph3 ph4-ns">
         
-          <h2 class="fw1 f5 f3-l white-80 measure-wide-l center mt3">
-            Concealed the book material with codes using Google Colab and Juypter notebooks.
-          </h2>
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Tesla Stock Prediction using Linear Regression</h1>
+          
+            <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Implementation of  Multiple Linear Regression from scratch with and without machine learning libraries.
+            </h2>
+          
         
       </div>
     </div>
   </header>
 
 
+
     <main class="pb7" role="main">
       
-  <article class="pa3 pa4-ns nested-copy-line-height nested-img">
-    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"><p>I&rsquo;m trying to summarize each book I read in a notebook in order to facilitate revision and search procedures regarding a given topic; also, these conclusions contain additional information from different resources such as articles, YouTube, etc.</p>
-</section>
-    <section class="pa3 pa4-ns w-100 w-80-ns center">
-      
-        <div>
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
+  
+  <article class="flex flex-column justify-around mt5 flex-l flex-wrap justify-between mw8 center ph4">
+    <header class="mt8 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
           
-        
-        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/books/Hands-on-machine-learning-with-scikit-learn-keras-and-tensorflow/" class="db grow">
-            <img src="https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/images/books/book1.png" class="img" alt="image from Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition">
-          </a>
-        </div>
+        PROJECTS
+      </aside>
       
-      <div class="blah w-100 w-60-ns pl3-ns">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/books/Hands-on-machine-learning-with-scikit-learn-keras-and-tensorflow/" class="color-inherit dim link">
-            Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Trying to summarize each book I read in a notebook in order to facilitate revision and search procedures regarding a given topic; also, these conclusions contain additional information from different resources such as articles, YouTube, etc.
-        </div>
-          <a href="https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/books/Hands-on-machine-learning-with-scikit-learn-keras-and-tensorflow/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+      
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/projects/Tesla-Stock-Prediction/&amp;title=Tesla%20Stock%20Prediction%20using%20Linear%20Regression" class="ananke-social-link linkedin no-underline" aria-label="share on LinkedIn Account">
         
+        <span class="icon"> <svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:{{ .fill }};"/>
+</svg>
+</span>
+        
+      </a>
+    
+  </div>
+
+
+
+      <h1 class="f1 athelas mt3 mb1">Tesla Stock Prediction using Linear Regression</h1>
+      
+      <p class="tracked">
+          By <strong>
+          
+              Heba Mohamed
+          
+          </strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2022-01-01T00:00:00Z">Sat, 1 Jan 2022</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 6 minutes read </span>
+      
+
+    </header>
+
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray"><h1 id="table-of-content">Table of Content</h1>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#exaplination-in-depth-linear-regression-algorithm">Exaplination in Depth Linear Regression Algorithm</a>
+      <ul>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#usage-in-real-word-apps">Usage in real-word apps</a></li>
+        <li><a href="#important-assumptions-in-regression-analysis">Important Assumptions in Regression Analysis</a></li>
+        <li><a href="#mathematics-behind-the-model">Mathematics Behind the Model</a>
+          <ul>
+            <li><a href="#1-simple-linear-regression">1. Simple Linear Regression</a></li>
+            <li><a href="#2-multiple-linear-regression">2. Multiple Linear Regression</a></li>
+            <li><a href="#3-minimize-objective-function-for-linear-regression">3. Minimize objective function for linear regression</a></li>
+            <li><a href="#4-minimize-objective-function-for-multiple-linear-regression">4. Minimize objective function for multiple linear regression</a>
+              <ul>
+                <li><a href="#1-solving-the-model-parameters-analytically-normal-equations-method">1. Solving the model parameters analytically (Normal Equations method)</a></li>
+                <li><a href="#2-using-an-optimization-algorithm-gradient-descent-stochastic-gradient-descent-etc">2. Using an optimization algorithm (Gradient Descent, Stochastic Gradient Descent, etc.)</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#exaplination-in-depth-linear-regression-algorithm-1">Exaplination in depth linear regression algorithm</a></li>
+  </ul>
+</nav>
+<hr>
+<h2 id="exaplination-in-depth-linear-regression-algorithm">Exaplination in Depth Linear Regression Algorithm</h2>
+<hr>
+<h3 id="introduction">Introduction</h3>
+<p>Linear regression algorithms show a linear relationship between a dependent $y$ and one or more independent $x$ variables, hence called linear regression.</p>
+<h3 id="usage-in-real-word-apps">Usage in real-word apps</h3>
+<p>Linear regression models have many real-world applications in an array of industries such as:</p>
+<ul>
+<li>Economics (e.g. predicting growth)</li>
+<li>Business (e.g. predicting product sales, employee performance)</li>
+<li>Social science (e.g. predicting political leanings from gender or race)</li>
+<li>Healthcare (e.g. predicting blood pressure levels from weight, disease onset from biological factors)</li>
+</ul>
+<h3 id="important-assumptions-in-regression-analysis">Important Assumptions in Regression Analysis</h3>
+<ol>
+<li><strong>Linearity</strong>: It is assumed that there is a linear relationship between the dependent $y$ and the independent $X$ variable(s).</li>
+<li><strong>Autocorrelation</strong>: There should be no correlation between the residual (error) terms. If some correlation is present then it means that the model is unable to identify some relationship in the data.</li>
+<li><strong>Multicollinearity</strong>: There should be no correlation between the independent variables. If the independent variables are moderately or highly correlated then it becomes difficult to find out which variable is contributing to predict the dependent (response) variable.</li>
+<li><strong>Homoskedasticity</strong>: The error terms must have constant variance.This non-constant variance arises in the presence of <em>outliers</em>. When this phenomenon occurs, the confidence interval for the out of sample prediction tends to be <em>unrealistically</em> wide or narrow.</li>
+<li><strong>Normality</strong>: The error terms must be normally distributed. Presence on non-normal distribution suggests that a few unusual data points must be studied closely to make a better model.</li>
+</ol>
+<p><strong>Note</strong>: 
+<div style="padding: 10px;
+            border: 2px;
+            border-color: dimgrey;
+              border-style: solid;
+            margin: 30px;
+            font-size: 17px; 
+            color : black;"  
+ class="gblog-hint ">
+  <i>Implementation of Univariate Linear Regression in Python without using any machine learning library. The code will be explained step-by-step with provided mathematical background.</i>
+</div>
+</p>
+<h3 id="mathematics-behind-the-model">Mathematics Behind the Model</h3>
+<h4 id="1-simple-linear-regression">1. Simple Linear Regression</h4>
+<p>If a single independent variable (x) is used to predict the value of a numerical dependent variable (y). 
+An estimate of this relationship is given as the linear function:
+$$yᵢ = β₀ + β₁Xᵢ + ε$$</p>
+<p><strong>Where:</strong></p>
+<ul>
+<li>$y$ hat sub i $(ŷᵢ)$ represents the estimated output given the input.</li>
+<li>$Xᵢ$ In this equation, $β₀$ is a bias and $β₁$ is the weight of the model. If the model is charted so that the output is the y-axis and the input is the x-axis, $β₀$ refers to the $y$ - intercept and $β₁$ represents the slope.</li>
+<li>$ε$ represents the random error term. The random error term represents the residual error between an estimated relationship and the actual one. It is subject to variability.</li>
+</ul>
+<center style="font-size: 14px; 
+        color: steelblue;"> 
+<figure><img src="https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/images/Projects/LR%20project/Linear%20regression%20representation%20graph.png"/><figcaption>
+            Simple linear regression data representation
+
+        </figcaption>
+</center>
+</figure>
+<h4 id="2-multiple-linear-regression">2. Multiple Linear Regression</h4>
+<p>If more than one independent variable (X) is used to predict the value of a numerical dependent variable (y).
+An estimate of the relationship can be given as:
+$$ŷᵢ = β₀ + β₁Xᵢ₁ + β₂Xᵢ₂ + … βnXn + ε$$</p>
+<p><strong>Where:</strong></p>
+<ul>
+<li>$Xᵢ₁, … Xᵢn$ represents all of the individual input datapoints where $Xᵢ₁$ represents a singular datapoint of input type $X₁$.</li>
+<li>$n$ is the number of input data types
+A multiple linear regression equation can be graphed as an n-dimensional plane.</li>
+</ul>
+<center style="font-size: 14px; 
+        color: steelblue;"> 
+<figure><img src="https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/images/Projects/LR%20project/n-dimensional_plane.png"/><figcaption>
+            Example of n-dimensional plane
+
+        </figcaption>
+</center>
+</figure>
+<h4 id="3-minimize-objective-function-for-linear-regression">3. Minimize objective function for linear regression</h4>
+<p>The simple linear regression can be solved using Ordinary Least Squares (OLS), which is a statistical method, to find the model parameters.Our goal is to find statistically significant values of the parameters $β₀$ and $βn$ that minimise the difference between $y$ and $ŷ$.</p>
+<center style="font-size: 14px; 
+        color: steelblue;"> 
+<figure><img src="https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/images/Projects/LR%20project/Ordinary_least_squares.jpeg"/><figcaption>
+            Ordinary Least Squares Single Linear Regression
+
+        </figcaption>
+</center>
+</figure>
+<h4 id="4-minimize-objective-function-for-multiple-linear-regression">4. Minimize objective function for multiple linear regression</h4>
+<p>We have more than one predictor variable which makes it hard for us to use that simple OLS method.we can implement a linear regression model for performing OLS regression using one of the following approaches</p>
+<p><strong>Note</strong>: 
+<div style="padding: 10px;
+            border: 2px;
+            border-color: dimgrey;
+              border-style: solid;
+            margin: 30px;
+            font-size: 17px; 
+            color : black;"  
+ class="gblog-hint ">
+  <i>For very large datasets, computing the matrix inverse is costly or in some cases, the inverse does not exist (the matrix is non-invertible or singular, e.g., in case of perfect multicollinearity)</i>
+</div>
+</p>
+<h5 id="1-solving-the-model-parameters-analytically-normal-equations-method">1. Solving the model parameters analytically (Normal Equations method)</h5>
+<p>This approach treats the data as a matrix and uses linear algebra operations to estimate the optimal values for the model parameters. It means that all of the data must be available and you must have enough memory to fit the data and perform matrix operations. So this method should be preferred for smaller datasets.</p>
+<center style="font-size: 14px; 
+        color: steelblue;"> 
+<figure><img src="https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/images/Projects/LR%20project/OLS%20for%20MLR.png"/><figcaption>
+            Ordinary Least Squares for Multiple Linear Regression
+
+        </figcaption>
+</center>
+</figure>
+<p>The closed-form solution for finding the optimal values for the model parameters is:
+$$Y = β^T.X$$
+Finding the minimum can be achieved through setting the gradient of the loss to zero and solving for ${\beta}$ we get:
+$$β = (X^T.X)^-1X^T.Y$$</p>
+<p><strong>Note</strong>
+<div style="padding: 10px;
+            border: 2px;
+            border-color: dimgrey;
+              border-style: solid;
+            margin: 30px;
+            font-size: 17px; 
+            color : black;"  
+ class="gblog-hint ">
+  <i>Matrices expressed in upper case letters.</i>
+</div>
+</p>
+<h5 id="2-using-an-optimization-algorithm-gradient-descent-stochastic-gradient-descent-etc">2. Using an optimization algorithm (Gradient Descent, Stochastic Gradient Descent, etc.)</h5>
+<p>The general idea of Gradient Descent is to tweak parameters iteratively to minimize a cost function. <strong>Error/Cost</strong> here represents the sum of squared error between the predicted and the actual value. This error is defined in terms of a function and is called Mean Squared Error (MSE) cost function. So, the objective of this Gradient Descent optimization algorithm is to minimize the MSE cost function.</p>
+<p>It measures the local gradient of the error function with regards to the parameter vector ${\beta}$ and it goes in the direction of the descending gradient. Once the gradient is zero, you have reached a minimum.</p>
+<p>An important parameter in the Gradient Descent is the size of the steps, determined by the <strong>learning rate</strong> hyperparameter.</p>
+<ul>
+<li>If the learning rate is too small, the algorithm will have to go through <em><strong>many iterations to converge</strong></em>, which will take a <strong>long time</strong>.</li>
+<li>If the learning rate is too high, the algorithm will jump over the minimum, making it <strong>diverge</strong>. Hence the algorithm won’t reach the minimum.</li>
+</ul>
+<center style="font-size: 14px; 
+        color: steelblue;"> 
+<figure><img src="https://heba14101998.github.io/Heba-Mohamed-portofolio-github.io/images/Projects/LR%20project/gradient_descent.jpeg"/><figcaption>
+            Gradient desent optimization.
+
+        </figcaption>
+</center>
+</figure>
+<p>To implement the Gradient Descent, you need to compute the gradient of the cost function concerning the parameter vector ${\beta}$. To get the gradient, we need to take the partial derivative of the cost function.</p>
+<p>The MSE cost function is defined as:
+$$MSE(β) =  \frac{1}{m} \sum_{i=1}^{m} (y^{(i)} - β^T.X^{(i)})^2$$
+$$\frac{\partial}{\partialβ_i}{MSE(β)}=\frac{2}{m}\sum_{i=1}^{m} (y^{(i)} - β^T.X^(i))X_{j}^{(i)}$$</p>
+<p><strong>Where:</strong></p>
+<ul>
+<li>$m$ is the total number of observations (data points) $\frac{1}{m} \sum_{i=1}^{m}$ is the mean
+The vectorized form looks like
+$$\begin{split}\begin{align}∇_βMSE(β) =
+\begin{bmatrix} 
+\frac{\partial}{\partialβ_0}{MSE(β)}\
+\frac{\partial}{\partialβ_1}{MSE(β)}\
+\text{.}\
+\text{.}\
+\frac{\partial}{\partialβ_n}{MSE(β)}
+\end{bmatrix}
+= \frac{2}{m} X^T.(X.β-Y)\end{align}\end{split}$$
+The update rule to get the updated weights/parameters is given below:
+$$β^{(\text{next step})} = β - α\frac{\partial}{\partialβ_n}{MSE(β)} $$</li>
+</ul>
+<p><strong>Where:</strong></p>
+<ul>
+<li>α is the learning rate hyperparameter.</li>
+</ul>
+<hr>
+<h2 id="exaplination-in-depth-linear-regression-algorithm-1">Exaplination in depth linear regression algorithm</h2>
+<hr>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "httpsheba14101998githubioheba-mohamed-portof" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+      
       </div>
     </div>
-  </div>
-</article>
-</div>
-      
-    </section></article>
+
+  </article>
+
 
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
